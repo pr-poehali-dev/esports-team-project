@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Получить список игроков",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {"players": [{"tag": "PHANTOM"}]},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
